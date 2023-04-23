@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: var(--text);
+}
+
+:root {
+    --background: #FCFAF9;
+    --text: #191826;
+    --lightGreen: #66E2DC;
+    --lightRed: #FA7453;
+    --orange: #FFB964;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background);
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 40px 24px 80px 24px;
+    background-image: url('./assets/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-position-y: -220px;
+    overflow-x: hidden;
+}
+
+.extraordinary {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin: 64px 0 20px;
+
+}
+
+.systemP {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+main {
+    width: 100%;
+    margin-top: 166px;
+}
+
+.try {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.phone {
+    width: 55.72%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -98px;
+}
+
+.blackDV {
+    background-color: var(--text);
+    padding: 0 48px 180px;
+    margin: 0 -24px;
+}
+
+.bgpattern2 {
+    width: 100%;
+}
+
+.lightRed {
+    background-color: var(--lightRed);
+    margin: -220px -24px 0;
+    padding: 48px 36px;
+    position: relative;
+}
+
+.premium {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--background);
+}
+
+.export {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--background);
+    margin: 12px 0 36px;
+}
+
+.prise {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-bottom: 32px;
+}
+
+.dolar {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: var(--background);
+}
+
+.month {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--background);
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: none;
+    padding: 15px 77px;
+    background-color: var(--text);
+}
+
+.android {
+    padding: 15px 57.5px 15px 62px;
+    background-color: var(--background);
+    margin-top: 16px;
+}
+
+
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: var(--background);
+}
+
+.androidtxt {
+    color: var(--text);
+}
+
+
+footer {
+    margin-top: 64px;
+}
+
+.contactUs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 32px 0 64px;
+    padding-right: 31px;
+}
+
+a {
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+
+.fbinstatwt {
+    display: flex;
+    column-gap: 20px;
+}
+
+.tvinistyvna {
+    display: none;
+}
+
+/* tablet version */
+
+/* @media screen and (min-width:768px) {
+
+    body {
+        background-image: unset;
+        padding: 62px 39px 85px;
+        background-image: url('./assets/bg-pattern-1.svg');
+        background-repeat: no-repeat;
+        background-position: 500px -40px;
+
+    }
+
+    .tvinistyvna {
+        width:100% ;
+        height: 655px;
+        display: block;
+        position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    }
+
+} */
