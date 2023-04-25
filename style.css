@@ -21,7 +21,7 @@ body {
     padding: 40px 24px 80px 24px;
     background-image: url('./assets/bg-main-mobile.png');
     background-repeat: no-repeat;
-    background-position-y: -220px;
+    background-position: right -220px top -220px;
     overflow-x: hidden;
 }
 
@@ -31,7 +31,6 @@ body {
     line-height: 48px;
     letter-spacing: -0.454545px;
     margin: 64px 0 20px;
-
 }
 
 .systemP {
@@ -73,6 +72,7 @@ main {
     margin: -220px -24px 0;
     padding: 48px 36px;
     position: relative;
+    border-radius: 12px;
 }
 
 .premium {
@@ -129,7 +129,6 @@ main {
     margin-top: 16px;
 }
 
-
 .text {
     font-weight: 700;
     font-size: 18px;
@@ -141,7 +140,6 @@ main {
 .androidtxt {
     color: var(--text);
 }
-
 
 footer {
     margin-top: 64px;
@@ -161,7 +159,6 @@ a {
     font-size: 16px;
 }
 
-
 .fbinstatwt {
     display: flex;
     column-gap: 20px;
@@ -173,26 +170,231 @@ a {
 
 /* tablet version */
 
-/* @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
     body {
         background-image: unset;
         padding: 62px 39px 85px;
-        background-image: url('./assets/bg-pattern-1.svg');
+        background-image:
+            url('./assets/bg-pattern-1.svg'),
+            url('./assets/bg-main-tablet.png');
         background-repeat: no-repeat;
-        background-position: 500px -40px;
-
+        background-position: 110% -50px, 60% -230px;
     }
 
-    .tvinistyvna {
-        width:100% ;
-        height: 655px;
+    .extraordinary {
+        padding-right: 244px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+        margin: 95px 0 28px;
+    }
+
+    .systemP {
+        padding-right: 176px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    main {
+        margin-top: 249px;
+    }
+
+    .blackDV {
+        padding: 0 187px 125px 229px;
+        margin: 0 -39px;
+    }
+
+    .try {
         display: block;
-        position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
-
     }
 
-} */
+    .phone {
+        width: 35.2%;
+        z-index: 1;
+        position: absolute;
+        margin-top: -138px;
+        margin-left: 64px;
+    }
+
+    .lightRed {
+        margin: -460px 58px -96px 239px;
+        padding: 48px;
+        border-radius: 12px;
+        z-index: 1;
+    }
+
+    .export {
+        margin-bottom: 0;
+    }
+
+    .prise {
+        margin-top: 36px;
+    }
+
+    footer {
+        margin-top: 183px;
+    }
+
+    .contactUsDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactUs {
+        height: 79px;
+        margin: 0;
+        padding-right: 280px;
+        margin-top: 32px;
+    }
+
+    .fbinstatwt {
+        align-self: center;
+    }
+}
+
+/* desktop version */
+
+@media screen and (min-width:1024px) {
+
+    .systemP {
+        padding-right: 225px;
+    }
+
+    main {
+        margin-top: 321px;
+    }
+
+    .blackDV {
+        padding: 0 412px 172px 280px;
+    }
+
+    .phone {
+        width: 28%;
+        margin-left: 90px;
+    }
+
+    .lightRed {
+        margin: -500px 105px 0 400px;
+        padding: 58px 59px 48px 54px;
+    }
+
+    .btn{
+        cursor: pointer;
+    }
+
+    .ios:hover{
+        background-color: var(--lightGreen);
+    }
+
+    .android:hover{
+        background-color: var(--orange);
+    }
+
+    svg:hover{
+        cursor: pointer;
+        background: var(--lightGreen);
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+    body {
+        background-image:
+            url('./assets/bg-pattern-1.svg'),
+            url('./assets/bg-main-tablet.png');
+        background-position: 100% -40px, 20% -230px;
+    }
+
+    .systemP {
+        padding-right: 285px;
+    }
+
+    .blackDV {
+        padding: 0 450px 120px 280px;
+    }
+
+    .phone {
+        width: 23%;
+        margin-left: 100px;
+    }
+
+    .lightRed {
+        margin: -400px 250px 0 500px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .contactUs {
+        padding: 0 359px 0 137px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body {
+        background-color: #FCFAF9;
+        padding: 62px 165px 91px;
+        background-image: unset;
+        background-image:
+            url('./assets/bg-pattern-1.svg'),
+            url('./assets/bg-main-desktop.png');
+        background-position: 100% -40px, 60% -230px;
+        
+    }
+
+    .extraordinary {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        margin: 127px 0 40px;
+    }
+
+    .systemP {
+        font-size: 20px;
+        line-height: 34px;
+        padding-right: 265px;
+    }
+
+    main {
+        margin-top: 321px;
+    }
+
+    .blackDV {
+        padding: 0 462px 172px 336px;
+    }
+
+    .phone {
+        width: 21.7%;
+        margin-left: 102px;
+    }
+
+    .lightRed {
+        margin: -590px 95px -115px 569px;
+        padding: 58px 59px 48px 54px;
+    }
+
+    .premium {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .export {
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 22px;
+    }
+
+    .prise {
+        margin: 39px 0 46px;
+    }
+
+    footer {
+        margin-top: 203px;
+    }
+}
